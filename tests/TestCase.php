@@ -1,8 +1,8 @@
 <?php
 
-namespace Laravel\JsonObject\Tests;
+namespace Amadul\JsonObject\Tests;
 
-use Laravel\JsonObject\JsonServiceProvider;
+use Amadul\JsonObject\JsonServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 abstract class TestCase extends Orchestra

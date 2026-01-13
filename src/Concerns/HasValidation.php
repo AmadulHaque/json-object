@@ -1,9 +1,9 @@
 <?php
 
-namespace Laravel\JsonObject\Concerns;
+namespace Amadul\JsonObject\Concerns;
 
 use Illuminate\Support\Facades\Validator;
-use Laravel\JsonObject\Contracts\ValidatesJson;
+use Amadul\JsonObject\Contracts\ValidatesJson;
 
 trait HasValidation
 {

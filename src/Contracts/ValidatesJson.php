@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\JsonObject\Contracts;
+namespace Amadul\JsonObject\Contracts;
 
 interface ValidatesJson
 {

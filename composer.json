@@ -1,5 +1,5 @@
 {
-    "name": "laravel/json-object",
+    "name": "amadul/json-object",
     "description": "Structured, castable, schema-aware JSON objects for Eloquent models",
     "license": "MIT",
     "authors": [
@@ -22,18 +22,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Laravel\\JsonObject\\": "src/"
+            "Amadul\\JsonObject\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Laravel\\JsonObject\\Tests\\": "tests/"
+            "Amadul\\JsonObject\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Laravel\\JsonObject\\JsonServiceProvider"
+                "Amadul\\JsonObject\\JsonServiceProvider"
             ]
         }
     },

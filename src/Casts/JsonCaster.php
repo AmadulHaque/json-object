@@ -1,11 +1,11 @@
 <?php
 
-namespace Laravel\JsonObject\Casts;
+namespace Amadul\JsonObject\Casts;
 
 use Illuminate\Contracts\Database\Eloquent\CastsAttributes;
 use Illuminate\Database\Eloquent\Model;
 use InvalidArgumentException;
-use Laravel\JsonObject\JsonObject;
+use Amadul\JsonObject\JsonObject;
 
 class JsonCaster implements CastsAttributes
 {

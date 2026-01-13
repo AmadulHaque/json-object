@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\JsonObject;
+namespace Amadul\JsonObject;
 
 use Illuminate\Contracts\Database\Eloquent\Castable;
 use Illuminate\Contracts\Database\Eloquent\CastsAttributes;
@@ -8,7 +8,7 @@ use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Jsonable;
 use Illuminate\Support\Traits\Macroable;
 use JsonSerializable;
-use Laravel\JsonObject\Casts\JsonCaster;
+use Amadul\JsonObject\Casts\JsonCaster;
 
 abstract class JsonObject implements Castable, Arrayable, Jsonable, JsonSerializable
 {

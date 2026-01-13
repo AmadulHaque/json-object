@@ -1,9 +1,9 @@
 <?php
 
-namespace Laravel\JsonObject;
+namespace Amadul\JsonObject;
 
 use Illuminate\Support\ServiceProvider;
-use Laravel\JsonObject\Commands\MakeJsonCommand;
+use Amadul\JsonObject\Commands\MakeJsonCommand;
 
 class JsonServiceProvider extends ServiceProvider
 {

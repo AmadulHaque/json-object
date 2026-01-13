@@ -2,8 +2,8 @@
 
 namespace {{ namespace }};
 
-use Laravel\JsonObject\JsonObject;
-use Laravel\JsonObject\Concerns\HasAccessors;
+use Amadul\JsonObject\JsonObject;
+use Amadul\JsonObject\Concerns\HasAccessors;
 
 class {{ class }} extends JsonObject
 {

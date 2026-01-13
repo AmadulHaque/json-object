@@ -1,13 +1,13 @@
 <?php
 
-namespace Laravel\JsonObject\Tests\Unit;
+namespace Amadul\JsonObject\Tests\Unit;
 
-use Laravel\JsonObject\JsonObject;
-use Laravel\JsonObject\Tests\TestCase;
-use Laravel\JsonObject\Concerns\HasAccessors;
-use Laravel\JsonObject\Concerns\HasValidation;
-use Laravel\JsonObject\Concerns\TracksDirtyAttributes;
-use Laravel\JsonObject\Contracts\ValidatesJson;
+use Amadul\JsonObject\JsonObject;
+use Amadul\JsonObject\Tests\TestCase;
+use Amadul\JsonObject\Concerns\HasAccessors;
+use Amadul\JsonObject\Concerns\HasValidation;
+use Amadul\JsonObject\Concerns\TracksDirtyAttributes;
+use Amadul\JsonObject\Contracts\ValidatesJson;
 
 class JsonObjectTest extends TestCase
 {

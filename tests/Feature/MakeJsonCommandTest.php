@@ -1,8 +1,8 @@
 <?php
 
-namespace Laravel\JsonObject\Tests\Feature;
+namespace Amadul\JsonObject\Tests\Feature;
 
-use Laravel\JsonObject\Tests\TestCase;
+use Amadul\JsonObject\Tests\TestCase;
 use Illuminate\Support\Facades\File;
 
 class MakeJsonCommandTest extends TestCase

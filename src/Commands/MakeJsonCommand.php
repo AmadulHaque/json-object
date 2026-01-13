@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\JsonObject\Commands;
+namespace Amadul\JsonObject\Commands;
 
 use Illuminate\Console\GeneratorCommand;
 use Symfony\Component\Console\Attribute\AsCommand;

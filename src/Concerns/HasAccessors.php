@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\JsonObject\Concerns;
+namespace Amadul\JsonObject\Concerns;
 
 trait HasAccessors
 {

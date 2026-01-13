@@ -1,8 +1,8 @@
 # Laravel JSON Object Toolkit
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/laravel/json-object.svg?style=flat-square)](https://packagist.org/packages/laravel/json-object)
-[![Total Downloads](https://img.shields.io/packagist/dt/laravel/json-object.svg?style=flat-square)](https://packagist.org/packages/laravel/json-object)
-[![License](https://img.shields.io/packagist/l/laravel/json-object.svg?style=flat-square)](https://packagist.org/packages/laravel/json-object)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/amadul/json-object.svg?style=flat-square)](https://packagist.org/packages/amadul/json-object)
+[![Total Downloads](https://img.shields.io/packagist/dt/amadul/json-object.svg?style=flat-square)](https://packagist.org/packages/amadul/json-object)
+[![License](https://img.shields.io/packagist/l/amadul/json-object.svg?style=flat-square)](https://packagist.org/packages/amadul/json-object)
 
 **Structured, castable, schema-aware JSON objects for Eloquent models.**
 

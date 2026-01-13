@@ -1,0 +1,29 @@
+<?php
+
+namespace {{ namespace }};
+
+use Laravel\JsonObject\JsonObject;
+use Laravel\JsonObject\Concerns\HasAccessors;
+
+class {{ class }} extends JsonObject
+{
+    use HasAccessors;
+
+    /**
+     * The schema whitelist for the JSON object.
+     *
+     * @var array
+     */
+    protected array $schema = [
+        //
+    ];
+
+    /**
+     * The attributes that should be cast.
+     *
+     * @var array
+     */
+    protected array $casts = [
+        //
+    ];
+}

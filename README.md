@@ -25,7 +25,7 @@ Transform your Eloquent JSON columns from messy arrays into strongly-typed, vali
 1. **Require the package** via Composer:
 
    ```bash
-   composer require laravel/json-object
+   composer require amadul/json-object
    ```
 
 2. **Publish the configuration** (Optional):
@@ -62,12 +62,12 @@ Open the generated file. We will:
 ```php
 namespace App\Json;
 
-use Laravel\JsonObject\JsonObject;
-use Laravel\JsonObject\Concerns\HasAccessors;
-use Laravel\JsonObject\Concerns\HasValidation;
-use Laravel\JsonObject\Concerns\TracksDirtyAttributes;
-use Laravel\JsonObject\Concerns\HasLogging;
-use Laravel\JsonObject\Contracts\ValidatesJson;
+use Amadul\JsonObject\JsonObject;
+use Amadul\JsonObject\Concerns\HasAccessors;
+use Amadul\JsonObject\Concerns\HasValidation;
+use Amadul\JsonObject\Concerns\TracksDirtyAttributes;
+use Amadul\JsonObject\Concerns\HasLogging;
+use Amadul\JsonObject\Contracts\ValidatesJson;
 
 class ProductAttributes extends JsonObject implements ValidatesJson
 {
@@ -244,7 +244,7 @@ The `JsonObject` class is `Macroable`. You can add methods at runtime, which is 
 
 ```php
 // AppServiceProvider.php
-use Laravel\JsonObject\JsonObject;
+use Amadul\JsonObject\JsonObject;
 
 public function boot()
 {
